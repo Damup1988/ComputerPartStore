@@ -5,7 +5,13 @@
     </PropertyGroup>
 
     <ItemGroup>
-        <PackageReference Include="Swashbuckle.AspNetCore" Version="5.6.3"/>
+        <PackageReference Include="Swashbuckle.AspNetCore" Version="5.6.3" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\ComputerPartStore.BusinessLogic\ComputerPartStore.BusinessLogic.csproj" />
+      <ProjectReference Include="..\ComputerPartStore.DB\ComputerPartStore.DB.csproj" />
+      <ProjectReference Include="..\ComputerPartStore.Domain\ComputerPartStore.Domain.csproj" />
     </ItemGroup>
 
 </Project>
