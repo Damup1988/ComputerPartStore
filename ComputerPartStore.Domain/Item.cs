@@ -6,6 +6,9 @@ namespace ComputerPartStore.Domain
 {
     public class Item
     {
+        /// <summary>
+        /// items properties
+        /// </summary>
         public Guid Id { get; set; }
         public string Name { get; set; }
         public string Type { get; set; }

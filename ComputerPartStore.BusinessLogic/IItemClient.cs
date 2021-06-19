@@ -11,7 +11,7 @@ namespace ComputerPartStore.BusinessLogic
         Item GetItemByName(string itemName);
         Item GetItemById(Guid Id);
         void AddNewItem(Item newItem);
-        void UpdateItem(Item existingItem);
-        void DeleteItem(Item itemToRemove);
+        void UpdateItem(Item existingItem, string itemPropertyName);
+        void DeleteItem(Guid id);
     }
 }
