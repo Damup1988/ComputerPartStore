@@ -4,13 +4,8 @@
     <projectFile>ComputerPartStore/ComputerPartStore.csproj</projectFile>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b01a0ed2-8bf3-4270-be20-b497a0562674" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.ComputerPartStore/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.ComputerPartStore/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ComputerPartStore.BusinessLogic/IItemClient.cs" beforeDir="false" afterPath="$PROJECT_DIR$/ComputerPartStore.BusinessLogic/IItemClient.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ComputerPartStore.DB/IItemRepository.cs" beforeDir="false" afterPath="$PROJECT_DIR$/ComputerPartStore.DB/IItemRepository.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ComputerPartStore.Domain/Item.cs" beforeDir="false" afterPath="$PROJECT_DIR$/ComputerPartStore.Domain/Item.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ComputerPartStore/Controllers/ItemController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/ComputerPartStore/Controllers/ItemController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ComputerPartStore/Controllers/WeatherForecastController.cs" beforeDir="false" />
+    <list default="true" id="b01a0ed2-8bf3-4270-be20-b497a0562674" name="Default Changelist" comment="ItemController.cs has been updated:&#10;GET PUT PATCH DELETE functions have been added">
+      <change afterPath="$PROJECT_DIR$/ComputerPartStore.BusinessLogic/MyItemClient.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,6 +25,7 @@
       <option value="$PROJECT_DIR$/ComputerPartStore.BusinessLogic/IItemClient.cs" />
       <option value="$PROJECT_DIR$/ComputerPartStore.DB/IItemRepository.cs" />
       <option value="$PROJECT_DIR$/ComputerPartStore/Controllers/ItemController.cs" />
+      <option value="$PROJECT_DIR$/ComputerPartStore.BusinessLogic/MyItemClient.cs" />
     </changedPaths>
   </component>
   <component name="ProjectId" id="1u55ZzLbX0MP0qaWCM75SEZVrkt" />
@@ -89,7 +85,7 @@
       <updated>1623942671492</updated>
       <workItem from="1623942694269" duration="5272000" />
       <workItem from="1624057661039" duration="3825000" />
-      <workItem from="1624117695549" duration="4737000" />
+      <workItem from="1624117695549" duration="5093000" />
     </task>
     <task id="LOCAL-00001" summary="Lesson1">
       <created>1623947191562</created>
@@ -105,7 +101,14 @@
       <option name="project" value="LOCAL" />
       <updated>1624106681176</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="ItemController.cs has been updated:&#10;GET PUT PATCH DELETE functions have been added">
+      <created>1624122591543</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1624122591543</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -129,6 +132,7 @@
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
     <MESSAGE value="Lesson1" />
     <MESSAGE value="public interface IItemClient - functions have been added" />
-    <option name="LAST_COMMIT_MESSAGE" value="public interface IItemClient - functions have been added" />
+    <MESSAGE value="ItemController.cs has been updated:&#10;GET PUT PATCH DELETE functions have been added" />
+    <option name="LAST_COMMIT_MESSAGE" value="ItemController.cs has been updated:&#10;GET PUT PATCH DELETE functions have been added" />
   </component>
 </project>
