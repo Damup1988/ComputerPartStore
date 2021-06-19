@@ -5,11 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b01a0ed2-8bf3-4270-be20-b497a0562674" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/ComputerPartStore.BusinessLogic/IItemClient.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ComputerPartStore.DB/IItemRepository.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ComputerPartStore.Domain/Item.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ComputerPartStore/Controllers/ItemController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ComputerPartStore.sln" beforeDir="false" afterPath="$PROJECT_DIR$/ComputerPartStore.sln" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.ComputerPartStore/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.ComputerPartStore/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ComputerPartStore.BusinessLogic/ComputerPartStore.BusinessLogic.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/ComputerPartStore.BusinessLogic/ComputerPartStore.BusinessLogic.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ComputerPartStore.BusinessLogic/IItemClient.cs" beforeDir="false" afterPath="$PROJECT_DIR$/ComputerPartStore.BusinessLogic/IItemClient.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ComputerPartStore.DB/ComputerPartStore.DB.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/ComputerPartStore.DB/ComputerPartStore.DB.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ComputerPartStore.DB/IItemRepository.cs" beforeDir="false" afterPath="$PROJECT_DIR$/ComputerPartStore.DB/IItemRepository.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ComputerPartStore.Domain/ComputerPartStore.Domain.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/ComputerPartStore.Domain/ComputerPartStore.Domain.csproj" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ComputerPartStore/ComputerPartStore.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/ComputerPartStore/ComputerPartStore.csproj" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -26,10 +27,10 @@
       <option value="$PROJECT_DIR$/ComputerPartStore.Domain/Class1.cs" />
       <option value="$PROJECT_DIR$/ComputerPartStore.DB/Class1.cs" />
       <option value="$PROJECT_DIR$/ComputerPartStore.BusinessLogic/Class1.cs" />
-      <option value="$PROJECT_DIR$/ComputerPartStore.DB/IItemRepository.cs" />
       <option value="$PROJECT_DIR$/ComputerPartStore.Domain/Item.cs" />
-      <option value="$PROJECT_DIR$/ComputerPartStore.BusinessLogic/IItemClient.cs" />
       <option value="$PROJECT_DIR$/ComputerPartStore/Controllers/ItemController.cs" />
+      <option value="$PROJECT_DIR$/ComputerPartStore.DB/IItemRepository.cs" />
+      <option value="$PROJECT_DIR$/ComputerPartStore.BusinessLogic/IItemClient.cs" />
     </changedPaths>
   </component>
   <component name="ProjectId" id="1u55ZzLbX0MP0qaWCM75SEZVrkt" />
@@ -87,14 +88,23 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1623942671492</updated>
-      <workItem from="1623942694269" duration="4013000" />
+      <workItem from="1623942694269" duration="5272000" />
+      <workItem from="1624057661039" duration="3350000" />
     </task>
+    <task id="LOCAL-00001" summary="Lesson1">
+      <created>1623947191562</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1623947191562</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
-  <component name="UnityProjectConfiguration" hasMinimizedUI="null" />
+  <component name="UnityProjectConfiguration" hasMinimizedUI="false" />
   <component name="UnityUnitTestConfiguration" currentTestLauncher="NUnit" />
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
@@ -106,8 +116,11 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
+    <MESSAGE value="Lesson1" />
+    <option name="LAST_COMMIT_MESSAGE" value="Lesson1" />
   </component>
 </project>
