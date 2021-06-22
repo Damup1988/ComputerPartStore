@@ -12,7 +12,7 @@ namespace ComputerPartStore.Controllers
     [Route("[controller]")]
     public class ItemController : ControllerBase
     {
-        private IItemClient _itemClient;
+        private readonly IItemClient _itemClient;
         
         /// <summary>
         /// Get all items
@@ -37,43 +37,31 @@ namespace ComputerPartStore.Controllers
         }
 
         /// <summary>
-        /// get item by name
-        /// </summary>
-        /// <param name="itemName"></param>
-        /// <returns> an item </returns>
-        /// <exception cref="NotImplementedException"></exception>
-        [HttpGet("{itemName}", Name = "GetItemByName")]
-        public Item GetItemByName(string itemName)
-        {
-            return _itemClient.GetItemByName(itemName);
-        }
-
-        /// <summary>
-        /// To create new item in our store
+        /// CREATE
         /// </summary>
         /// <param name="newItem"></param>
-        [HttpPut]
-        public void InsertItem(Item newItem)
+        [HttpPost]
+        public ActionResult<Item> InsertItem(Item newItem)
         {
             _itemClient.AddNewItem(newItem);
+            return Ok(newItem);
         }
 
         /// <summary>
-        /// to update an item
+        /// UPDATE
         /// </summary>
         /// <param name="item"></param>
-        /// <param name="itemPropertyName"></param>
-        [HttpPatch]
-        public void UpdateItem(Item item, string itemPropertyName)
+        [HttpPut("{id}")]
+        public void UpdateItem(Guid id)
         {
-            _itemClient.UpdateItem(item, itemPropertyName);
+            _itemClient.UpdateItem(id);
         }
-
+        
         /// <summary>
-        /// to remove an item by id
+        /// DELETE
         /// </summary>
         /// <param name="id"></param>
-        [HttpDelete]
+        [HttpDelete("{id}")]
         public void DeleteItemById(Guid id)
         {
             _itemClient.DeleteItem(id);

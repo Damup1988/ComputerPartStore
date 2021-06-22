@@ -1,18 +1,16 @@
 ﻿using System;
 using System.Collections.Generic;
-using ComputerPartStore.DB;
 using ComputerPartStore.Domain;
-using Microsoft.AspNetCore.Mvc;
 
-namespace ComputerPartStore.BusinessLogic
+namespace ComputerPartStore.DB
 {
-    public class MyItemClient : IItemClient
+    public class ItemRepository : IItemRepository
     {
-        private readonly IItemRepository _itemRepository;
+        private readonly ItemContext _context;
 
-        public MyItemClient(IItemRepository repository)
+        public ItemRepository(ItemContext context)
         {
-            _itemRepository = repository;
+            _context = context;
         }
         
         public IEnumerable<Item> GetAllItems()
@@ -27,7 +25,7 @@ namespace ComputerPartStore.BusinessLogic
 
         public void AddNewItem(Item newItem)
         {
-            _itemRepository.AddNewItem(newItem);
+            _context.Items.Add(newItem);
         }
 
         public void UpdateItem(Guid id)

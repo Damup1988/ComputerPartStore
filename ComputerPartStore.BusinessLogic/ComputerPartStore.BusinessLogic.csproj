@@ -5,10 +5,12 @@
     </PropertyGroup>
 
     <ItemGroup>
+      <ProjectReference Include="..\ComputerPartStore.DB\ComputerPartStore.DB.csproj" />
       <ProjectReference Include="..\ComputerPartStore.Domain\ComputerPartStore.Domain.csproj" />
     </ItemGroup>
 
     <ItemGroup>
+      <PackageReference Include="Microsoft.AspNetCore.Mvc.Core" Version="2.2.5" />
       <PackageReference Include="Microsoft.EntityFrameworkCore" Version="6.0.0-preview.5.21301.9" />
     </ItemGroup>
 
